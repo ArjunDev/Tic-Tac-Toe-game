@@ -1,0 +1,75 @@
+
+body {
+  background-color: #7eaa338b;
+  text-align: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 60vmin;
+  width: 60vmin;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  gap: 0.5em;
+}
+.box {
+  color: #684A52;
+  font-size: 3rem;
+  background-color: #A4BEF3;
+  box-shadow: 1px 1px 2px 0.5px black;
+  border: none;
+  border-radius: 1.5rem;
+  width: 18vmin;
+  height: 18vmin;
+}
+.box:hover {
+  cursor: pointer;
+}
+.reset-btn {
+  border: none;
+  width: 7rem;
+  height: 2rem;
+  border-radius: 1rem;
+  text-align: center;
+  background-color: rgba(27, 1, 1, 0.9);
+  color: white;
+}
+.new-game-btn {
+  border: none;
+  width: 7rem;
+  height: 2rem;
+  border-radius: 1rem;
+  text-align: center;
+  background-color: rgba(27, 1, 1, 0.9);
+  color: white;
+}
+#winner-msg {
+  color: rgb(90, 4, 4);
+  font-size: 2rem;
+  margin-bottom: none;
+  height: 25vh;
+}
+.hide {
+  display: none;
+}
+
+/*to change background color of the box O upon click*/
+.boxo {
+  background-color: #5f75a0c4;
+  box-shadow: 1px 1px 2px 0.5px rgb(13, 209, 65);
+}
+
+/*to change background color of the box X upon click*/
+.boxx {
+  background-color: #1159eb90;
+  box-shadow: 1px 1px 2px 0.5px rgb(239, 7, 7);
+}
